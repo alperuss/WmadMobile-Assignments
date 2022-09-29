@@ -56,7 +56,7 @@ class Student {
         print("Here is your transcript:")
 
         for i in 0...self.courses.count-1{
-            print("\(i+1)-) \(self.courses[i].courseId) : \(self.courses[i].courseName)")
+            print("\(i+1)-) \(self.courses[i].courseId) : \(self.courses[i].courseName) = \(StudentCourses.getMark(<#T##self: StudentCourses##StudentCourses#>))")
         }
         print("YOUR GPA IS: 64.75")
 

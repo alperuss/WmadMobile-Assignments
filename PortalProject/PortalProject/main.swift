@@ -117,6 +117,9 @@ func mainMenu(student:Student){
                 else if number == 2 {
                 student.coursesInfo()
                 }
+                else if number == 3 {
+                    student.transcriptInfo()
+                }
                 else if number == 4{
                 student.gpa()
                 }
